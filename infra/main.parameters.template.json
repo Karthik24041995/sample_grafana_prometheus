@@ -1,0 +1,21 @@
+# Azure Deployment Parameters
+# Copy this file to main.parameters.json and update the values
+
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "environmentName": {
+      "value": "dev"
+    },
+    "baseName": {
+      "value": "promlearn"
+    },
+    "location": {
+      "value": "eastus"
+    },
+    "grafanaPassword": {
+      "value": "YOUR_SECURE_PASSWORD_HERE"
+    }
+  }
+}
